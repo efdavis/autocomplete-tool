@@ -1,9 +1,9 @@
-require('./components/example.js');
+// require('./components/Example.js');
 // require('./bootstrap');
 
 window.React = require('react');
 
-import Example from './components/example.js';
+import Example from './components/Example.js';
 
 // console.log(React);
 

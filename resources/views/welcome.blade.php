@@ -55,11 +55,10 @@
             }
     </style>
     <link href="{{ mix('css/app.css') }}" rel="stylesheet">
-    <script src="{{ mix('js/app.js') }}"></script>
 </head>
 <body>
-    <div id="example">
-    </div>
+    <div id="example"></div>
+    <script src="{{ mix('js/app.js') }}"></script> 
     <h1>Wag</h1>
 </body>
 </html>
