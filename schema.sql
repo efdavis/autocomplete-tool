@@ -5,14 +5,18 @@ CREATE DATABASE wag;
 USE wag;
 
 CREATE TABLE dog_breeds (
+  id INT NOT NULL,
   Breed VARCHAR(50) 
 );
 
 CREATE TABLE wishlist (
+  id INT NOT NULL,
   Breed VARCHAR(50) 
 );
 
+
 LOAD DATA INFILE '/Users/EricDavis/wag/dog-breeds.csv' INTO TABLE dog_breeds;
+-- ALTER TABLE dog_breeds ADD id INT PRIMARY KEY AUTO_INCREMENT;
 
 /*  Execute this file from the command line by typing:
  *    mysql -u root < schema.sql
